@@ -1,0 +1,18 @@
+/* fills main page */
+/* logo color #000000 and #2196F3 */
+/* h2.. color #212121 */
+/* p color #757575 */
+/*acent color #2196F3 */
+/* tel color #757575 */
+/* hero color H1 #FFFFFF */
+/*button text color #FFFFFF */
+/*footer logo color #2196F3 #FFFFFF */
+/*footer adress colors #FFFFFF* rgba(255, 255, 255, 0.6) (mail tel)*/
+
+.header a .accent-web {
+color: #2196F3;
+}
+
+.header a .accent-studio {
+    color: #000000;
+    }
