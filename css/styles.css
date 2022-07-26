@@ -9,10 +9,12 @@
 /*footer logo color #2196F3 #FFFFFF */
 /*footer adress colors #FFFFFF* rgba(255, 255, 255, 0.6) (mail tel)*/
 
-.header a.logo span.accent-web {
-color: #2196F3;
+a {
+    text-decoration: none;
 }
-
-.header a.logo span.accent-studio {
+.logo {
+    color: #2196F3;
+}
+.logo-accent{
     color: #000000;
-    }
+}
