@@ -49,3 +49,23 @@ ul {
 {
     color: #2196F3;
 }
+
+.hero {
+    background-color: #757575;
+}
+
+.hero__heading{
+    color: #FFFFFF;
+}
+.hero__button{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.features-list__heading {
+    color: #212121;
+}
+
+.features-list__paragraph {
+    color: #757575;
+}
