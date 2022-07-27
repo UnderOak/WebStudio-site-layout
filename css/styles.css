@@ -31,6 +31,21 @@ ul {
 .site-nav__link:focus,
 .site-nav__link:active,
 .site-nav__link-current{
-    
+
     color:#2196F3;
+}
+
+.header-contacts__mail,
+.header-contacts__tel{
+    color: #757575;
+}
+
+.header-contacts__mail:hover,
+.header-contacts__mail:focus,
+.header-contacts__mail:active,
+.header-contacts__tel:hover,
+.header-contacts__tel:focus,
+.header-contacts__tel:active
+{
+    color: #2196F3;
 }
