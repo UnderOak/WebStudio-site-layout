@@ -12,9 +12,25 @@
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style: none;
+}
 .logo {
     color: #2196F3;
 }
 .logo-accent{
     color: #000000;
+}
+
+.site-nav__link {
+    color: #000000;
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus,
+.site-nav__link:active,
+.site-nav__link-current{
+    
+    color:#2196F3;
 }
