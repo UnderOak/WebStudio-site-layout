@@ -49,10 +49,12 @@ a {
 ul {
     list-style: none;
 }
+
 .logo {
     color: #2196F3;
 }
-.logo--accent{
+
+.logo--accent {
     color: #000000;
 }
 
@@ -63,14 +65,13 @@ ul {
 .site-nav__link:hover,
 .site-nav__link:focus,
 .site-nav__link:active,
-.site-nav__link-current{
+.site-nav__link-current {
 
-    color:#2196F3;
+    color: #2196F3;
 }
 
 .header-contacts__mail,
-.header-contacts__tel
-{
+.header-contacts__tel {
     color: #757575;
 }
 
@@ -79,8 +80,7 @@ ul {
 .header-contacts__mail:active,
 .header-contacts__tel:hover,
 .header-contacts__tel:focus,
-.header-contacts__tel:active
-{
+.header-contacts__tel:active {
     color: #2196F3;
 }
 
@@ -88,10 +88,11 @@ ul {
     background-color: #2F303A;
 }
 
-.hero__heading{
+.hero__heading {
     color: #FFFFFF;
 }
-.hero__button{
+
+.hero__button {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -104,40 +105,40 @@ ul {
     color: #757575;
 }
 
-.works__heading{
+.works__heading {
     color: #212121;
 }
 
-.team__heading{
-    color:#212121
+.team__heading {
+    color: #212121
 }
 
-.team-list__heading{
-    color:#212121;
+.team-list__heading {
+    color: #212121;
 }
 
-.team-list__paragraph{
-    color:#757575;
+.team-list__paragraph {
+    color: #757575;
 }
 
-.footer{
+.footer {
     background-color: #2F303A;
 }
 
-.footer__logo{
+.footer__logo {
     color: #2196F3;
 }
 
-.footer__logo--accent{
+.footer__logo--accent {
     color: #FFFFFF;
 }
 
-.footer-address__address{
-    color:#FFFFFF;
+.footer-address__address {
+    color: #FFFFFF;
 }
+
 .footer-contacts__mail,
-.footer-contacts__tel
-{
+.footer-contacts__tel {
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -146,22 +147,21 @@ ul {
 .footer-contacts__mail:active,
 .footer-contacts__tel:hover,
 .footer-contacts__tel:focus,
-.footer-contacts__tel:active
-{
+.footer-contacts__tel:active {
     color: #2196F3;
 }
 
 /*portfolio styles*/
 
-.portfolio_button{
+.portfolio_button {
     background-color: #2196F3;
     color: #FFFFFF;
 }
 
-.portfolio-list__heading{
-    color:#212121;
+.portfolio-list__heading {
+    color: #212121;
 }
 
-.portfolio-list__paragraph{
-    color:#757575;
+.portfolio-list__paragraph {
+    color: #757575;
 }
