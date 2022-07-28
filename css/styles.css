@@ -10,6 +10,24 @@
 /*footer adress colors #FFFFFF* rgba(255, 255, 255, 0.6) (mail tel)*/
 /* hero, footer bcg #2F303A */
 
+/*:root {
+    --bgc-secondary: #2F303A;
+    --logo: #2196F3;
+    --accent-logo-header: #000000;
+    --accent-logo-footer: #FFFFFF;
+    --nav-main: #212121;
+    --nav-accent: #2196F3;
+    --contacts-main: #757575;
+    --hero-heading: #FFFFFF;
+    --button-bgc-active: #2196F3;
+    --button-name-active: #FFFFFF;
+    --button-bgc: #F5F4FA;
+    --button-name: #212121;
+    --heading-main: #212121;
+    --paragraph-main: #757575;
+    --address-footer: #757575;
+    --contacts-footer: rgba(255, 255, 255, 0.6);
+} */
 
 /*index, logo, header, footer styles*/
 
