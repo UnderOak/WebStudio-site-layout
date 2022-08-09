@@ -127,6 +127,7 @@ ul {
 .hero__button {
     background-color: var(--button-bgc-active);
     color: var(--button-bgc);
+    cursor: pointer;
 
     font-family: inherit;
     font-weight: 700;
@@ -246,6 +247,7 @@ ul {
 .portfolio_button {
     background-color: var(--button-bgc-active);
     color: var(--button-name-active);
+    cursor: pointer;
 
     font-family: inherit;
     font-weight: 500;
