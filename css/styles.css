@@ -33,6 +33,9 @@
 
 body {
     background-color: #FFFFFF;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .visually-hidden {
@@ -56,6 +59,13 @@ ul {
 
 .logo {
     color: var(--logo);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 .logo--accent {
@@ -64,6 +74,11 @@ ul {
 
 .site-nav__link {
     color: var(--nav-main);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav__link:hover,
@@ -77,6 +92,12 @@ ul {
 .header-contacts__mail,
 .header-contacts__tel {
     color: var(--contacts-main);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-contacts__mail:hover,
@@ -94,43 +115,98 @@ ul {
 
 .hero__heading {
     color: var(--hero-heading);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero__button {
     background-color: var(--button-bgc-active);
     color: var(--button-bgc);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .features-list__heading {
     color: var(--heading-main);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .features-list__paragraph {
     color: var(--paragraph-main);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .works__heading {
     color: var(--heading-main);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team__heading {
     color: var(--heading-main);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-list__heading {
     color: var(--heading-main);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
 }
 
 .team-list__paragraph {
     color: var(--paragraph-main);
+
+    font-size: 16px;
+    line-height: 1.19px;
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
 }
 
 .footer {
     background-color: var(--bgc-secondary);
+
 }
 
 .footer__logo {
     color: var(--logo);
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 .footer__logo--accent {
@@ -139,11 +215,21 @@ ul {
 
 .footer-address__address {
     color: var(--address-footer);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
 }
 
 .footer-contacts__mail,
 .footer-contacts__tel {
     color: var(--contacts-footer);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer-contacts__mail:hover,
@@ -160,12 +246,31 @@ ul {
 .portfolio_button {
     background-color: var(--button-bgc-active);
     color: var(--button-name-active);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-list__heading {
     color: var(--heading-main);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
 }
 
 .portfolio-list__paragraph {
     color: var(--paragraph-main);
+
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
 }
