@@ -29,13 +29,26 @@
     --contacts-footer: rgba(255, 255, 255, 0.6);
 }
 
-/*index styles*/
+html {
+    box-sizing: border-box;
+    /*calculation of geometry*/
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    /*calculation of geometry*/
+}
 
 body {
     background-color: #FFFFFF;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+
+    margin: 0;
 }
 
 .visually-hidden {
@@ -57,6 +70,13 @@ ul {
     list-style: none;
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .logo {
     color: var(--logo);
 
@@ -66,10 +86,20 @@ ul {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
+
+    display: inline-block;
+    margin-top: 24px;
 }
 
 .logo--accent {
     color: var(--accent-logo-header);
+}
+
+.site-nav__list {
+    margin: 0px;
+    padding: 0px;
 }
 
 .site-nav__link {
@@ -79,6 +109,8 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    outline: 1px solid tomato;
 }
 
 .site-nav__link:hover,
@@ -98,6 +130,8 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    outline: 1px solid tomato;
 }
 
 .header-contacts__mail:hover,
@@ -111,6 +145,7 @@ ul {
 
 .hero {
     background-color: var(--bgc-secondary);
+
 }
 
 .hero__heading {
@@ -122,6 +157,14 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    display: inline-block;
+    padding: 0px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 1px solid tomato;
 }
 
 .hero__button {
@@ -133,6 +176,12 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+
+
+}
+
+.features-list {
+    outline: 1px solid tomato;
 }
 
 .features-list__heading {
@@ -143,6 +192,8 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    outline: 1px solid tomato;
 }
 
 .features-list__paragraph {
@@ -151,6 +202,8 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .works__heading {
@@ -161,6 +214,8 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .team__heading {
@@ -171,6 +226,8 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .team-list__heading {
@@ -182,21 +239,26 @@ ul {
     /* identical to box height */
     /* text-align: center; */
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .team-list__paragraph {
     color: var(--paragraph-main);
 
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     /* identical to box height */
     /* text-align: center; */
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .footer {
     background-color: var(--bgc-secondary);
 
+    outline: 1px solid tomato;
 }
 
 .footer__logo {
@@ -205,9 +267,13 @@ ul {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
+
+    display: inline-block;
 }
 
 .footer__logo--accent {
@@ -219,8 +285,10 @@ ul {
 
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .footer-contacts__mail,
@@ -231,6 +299,8 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    outline: 1px solid tomato;
 }
 
 .footer-contacts__mail:hover,
@@ -242,7 +312,7 @@ ul {
     color: var(--nav-accent);
 }
 
-/*portfolio styles*/
+/**************************************************PORTFOLIO STYLES**************************************************/
 
 .portfolio_button {
     background-color: var(--button-bgc-active);
