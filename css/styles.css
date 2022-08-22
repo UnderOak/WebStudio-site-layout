@@ -72,6 +72,8 @@ ul {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    height: 80px;
 }
 
 .site-nav {
@@ -83,10 +85,13 @@ ul {
 }
 
 .site-nav__list {
+    width: 294px;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-contacts__list {
+    width: 305px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +101,7 @@ ul {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
