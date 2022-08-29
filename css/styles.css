@@ -70,6 +70,13 @@ ul {
     list-style: none;
 }
 
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -84,39 +91,13 @@ ul {
     padding: 0;
 }
 
-.site-nav__list {
-    width: 294px;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* .site-nav__list>li {
-    margin-right: 50px;
-}
-
-.site-nav__list>li:last-child {
-    margin-right: 0;
-} */
 
 .site-nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-contacts__list {
-    width: 305px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 0;
-    margin: 0;
-}
-
-.container {
-    max-width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+.site-nav__item:first-child {
+    margin-left: 93px;
 }
 
 .logo {
@@ -136,17 +117,19 @@ ul {
 
 .logo--accent {
     color: var(--accent-logo-header);
-
-    display: inline-block;
-    margin-right: 93px;
 }
 
 .site-nav__list {
+    width: 294px;
+    display: flex;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
 }
 
 .site-nav__link {
+    padding: 10px 0px 10px 0px;
+
     color: var(--nav-main);
 
     font-weight: 500;
@@ -165,8 +148,20 @@ ul {
     color: var(--nav-accent);
 }
 
+.header-contacts__list {
+    width: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+}
+
 .header-contacts__mail,
 .header-contacts__tel {
+    padding: 10px 0 10px 0;
+
     color: var(--contacts-main);
 
     font-style: normal;
@@ -188,11 +183,21 @@ ul {
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--bgc-secondary);
 
 }
 
 .hero__heading {
+    display: inline-block;
+    width: 696px;
+    padding: 0px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
     color: var(--hero-heading);
 
     font-weight: 900;
@@ -202,16 +207,13 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    display: inline-block;
-    padding: 0px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
 
     outline: 1px solid tomato;
 }
 
 .hero__button {
+    margin-bottom: 200px;
+
     background-color: var(--button-bgc-active);
     color: var(--button-bgc);
     cursor: pointer;
@@ -220,7 +222,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-
 
 }
 
